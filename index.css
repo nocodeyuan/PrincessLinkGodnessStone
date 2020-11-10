@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.calc{
+    width: 500px;
+    height: 400px;
+    box-sizing: border-box;
+    background: linear-gradient(-45deg,#0ff0f0,#e0e0e0);
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.calc input,button,h1{
+    margin: 40px 20px 0;
+}
+
+h1{
+    width: 80%;
+    text-align: center;
+    opacity: .5;
+}
+input{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+    width: 60%;
+    text-transform: uppercase;
+    outline: none;
+    border:none;
+    border-radius: 4px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+button{
+    border:none;
+    background: linear-gradient(to right,#9abed8,#651fc0);
+    color: #fff;
+    outline-style: none;
+    height: 40px;
+    width: 40%;
+    border-radius: 3px;
+    transition: background 2s;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+button:hover{
+    background: linear-gradient(to right,rgb(72, 61, 224),rgb(121, 136, 223));
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    opacity: .6;
+    letter-spacing: 1px;
+}
+
+/* span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    font-size:16px;
+    color:red;
+    background-color: #e0e0e0;
+} */
